@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="spotify.css">
+    <title>Spotify Clone Project</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon (1).ico">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="lo"><img src="logo.png" class="logo" width="10" height="10" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="song-list">
+            <h1>Where do we go, When we fall asleep?</h1>
+            <div class="song-container">
+                <div class="songItem">
+                    <span class="songName">All too well(Taylor's version)</span>
+                    <span class="songListPlay"><span id="0"  class="fas timestamp songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <span class="songName">All too well(Taylor's version)</span>
+                    <span class="songListPlay"><span id="1" class="fas timestamp songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <span class="songName">All too well(Taylor's version)</span>
+                    <span class="songListPlay"><span id="2" class="fas timestamp songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <span class="songName">All too well(Taylor's version)</span>
+                    <span class="songListPlay"><span id="3" class="fas timestamp songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <span class="songName">All too well(Taylor's version)</span>
+                    <span class="songListPlay"><span id="4" class="fas timestamp songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <span class="songName">All too well(Taylor's version)</span>
+                    <span class="songListPlay"><span id="5" class="fas timestamp songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+           <!---- fontawesome icons -->
+           <i class="fas fa-3x fa-step-backward" id="previous"></i>
+           <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+           <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="play.gif" width="42px" alt="gif" id="gif"value="0"> <span id="masterSongName">PhotoGraph By Ed Sheeran</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c81aea46ce.js" crossorigin="anonymous"></script>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
